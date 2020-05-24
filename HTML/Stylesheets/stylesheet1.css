@@ -1,0 +1,67 @@
+/*body{
+  width: 100%;
+  background-image: url(images/wall1.jpg);
+  margin: 0px auto 0px auto; /*this is - TRBL(Top Right Bottom Left) */
+  /*border: 1px solid black;
+*/  
+}
+
+#frame{
+  width: 100%;
+  min-width: 900px;
+  max-width: 1050px;
+  font-family: 'Sedgwick Ave', cursive;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0px auto 0px auto;
+  color: white;
+      
+}
+
+
+
+nav.horizontalNAV{
+  width: 100%;
+  text-align: center;
+  background-image: url(images/black.jpg);
+  position: fixed;      
+  top: -10px;
+  margin-bottom: 35px;
+  padding:0px;
+  box-shadow: 10px 10px 17px white;
+
+  
+}
+
+nav.horizontalNAV ul{
+margin-left: -50px;    
+list-style: none;
+
+}
+
+nav.horizontalNAV li a{
+  font-family: georgia;    
+  font-weight:700;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+nav.horizontalNAV li{
+display: inline-block;
+margin-right:5px;  
+padding: 12px;
+background-color: none;
+box-shadow: 10px 10px 20px #888888;
+}
+
+#margin {
+   margin-right: 150px;    
+}
+
+nav.horizontalNAV a:hover{
+color: #888888;
+    font-weight:700;
+}
+
+

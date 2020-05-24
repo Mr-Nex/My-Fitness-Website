@@ -1,0 +1,316 @@
+/*
+ * Globals
+ */
+
+body{
+  width: 100%;
+  background: rgb(242, 242, 242);
+    background-size: cover;
+  margin: 0px auto 0px auto; /*this is - TRBL(Top Right Bottom Left) */
+  /*border: 1px solid black;*/
+}
+
+
+#frame{
+  width: 100%;
+  min-width: 900px;
+  max-width: 1050px;
+  font-family: Verdana, Times New Roman, Sans-Serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0px auto 0px auto;
+      
+}
+
+
+#adminheader{
+width:100%;
+height: 700px;
+bottom:400px;
+border:10px;
+box-shadow: 10px 10px 17px #888888;
+    top:0px;
+margin-top: 0px;
+margin-bottom:0px;
+
+}
+
+#top{
+width:100%;
+height: 600px;
+bottom:400px;
+border:10px;
+box-shadow: 10px 10px 17px #888888;
+margin-top: 20px;
+margin-bottom:0px;
+
+}
+
+#top2{
+width:100%;
+height: 280px;
+bottom:400px;
+/*border:10px;
+box-shadow: 10px 10px 17px #888888;*/
+margin-top: 40px;
+margin-bottom:0px;
+
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+.container{
+   width: 100%;
+   
+}
+
+
+
+/*
+ * Masthead for nav
+ */
+
+nav.horizontalNAV{
+  width: 100%;
+  text-align: center;
+  background-image: url(images/black.jpg);
+  height: 60px;        
+  top: 0px;
+  margin-bottom:0px;
+  padding:0px;
+  box-shadow: 10px 10px 17px white;
+  white-space: nowrap;    
+
+  
+}
+
+nav.horizontalNAV ul{
+margin-left: -60px;    
+list-style: none;
+
+}
+
+nav.horizontalNAV li a{
+    font-family: georgia;
+  font-weight:700;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+nav.horizontalNAV li{
+display: inline-block;
+margin-right:5px;  
+padding: 12px;
+background-color: none;
+box-shadow: 10px 10px 20px #888888;
+}
+
+#margin {
+   margin-right: 270px;    
+}
+
+nav.horizontalNAV a:hover{
+color: #888888;
+}
+
+
+/*
+ * Blog name and description
+ *
+
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+  }
+  
+.blog-description {
+padding-left:280px;
+  font-size: 20px;
+  color: #999;
+}
+*/
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blogmain {
+  font-size: 18px;
+  line-height: 1.5;
+    float: left;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  float: right;    
+  padding: 15px;
+  margin-top: 2000px;    
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  
+ float: right;
+ width: 250px;
+ height: 250px;
+ background-image: url(images/head2.jpg);
+ border-left: 1px solid black;
+ margin-left: 20px;
+ margin-top: 50px;    
+ overflow: scroll;
+ top:100px;
+ color:#f4f4f4;
+ 
+    
+}
+
+.sidebar-module-inset h3{
+font-size: 25px;
+  color: #f4f4f4;
+  padding-bottom: 20px;
+ 
+}
+
+
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Admin Footer
+ */
+
+.adminfooter {
+    width: 100%;
+    height: 180px;
+  padding: 40px 0;
+  color:rgb(181, 183, 188);
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5; 
+  margin-top: 0px;  
+  text-decoration: none;   
+  bottom: -50px;   
+  overflow: hidden;
+  white-space: nowrap;    
+}
+
+
+.adminfooter li{
+    display:flex;
+    text-decoration: none;
+}
+.adminfooter li a{
+    text-decoration: none;
+}
+
+.adminfooter ul{
+    list-style:none;
+    text-decoration: none;
+}
+
+
+#table{
+    margin-top: -120px;
+    padding-left: -100px;
+}
+#table a{
+    text-decoration: none;
+    color:rgb(181, 183, 188);
+}
+#table a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+
+/*
+*   custom classes
+*/
+
+
+.readmore{
+display:block;
+text-align:center;
+padding:5px;
+background:#f4f4f4;
+margin-top:10px;
+color:#666
+}
+
+.readmore:hover{
+background:#ccc;
+color:#666;
+text-decoration:none;
+}
+
+/*
+*  Login page
+*/
+
+#login{
+  width: 100%;
+  background-image: url(images/admin3.jpg);
+    background-size: cover;
+  margin: 0px auto 0px auto; /*this is - TRBL(Top Right Bottom Left) */
+  /*border: 1px solid black;*/
+}
+
+#footer {
+  top: 10000px;
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}

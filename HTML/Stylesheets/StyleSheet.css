@@ -1,0 +1,544 @@
+/*
+font-family: 'Sedgwick Ave', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Sriracha', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Mogra', cursive;
+
+*/
+
+body{
+  width: 100%;
+  background: white;
+  margin: 0px auto 0px auto; /*this is - TRBL(Top Right Bottom Left) */
+  /*border: 1px solid black;*/
+}
+
+#frame{
+  width: 100%;
+  min-width: 900px;
+  max-width: 1050px;
+  font-family: 'Sedgwick Ave', cursive;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0px auto 0px auto;
+      
+}
+
+.container{
+  font-family:  'Sedgwick Ave', cursive;
+    font-size: 18px;
+}
+
+
+/*
+*navigation list-----------------------------------------
+*/
+
+nav.horizontalNAV{
+  width: 100%;
+  text-align: center;
+  background-image: url(images/black.jpg);
+  position: fixed;      
+  top: -10px;
+
+  padding:0px;
+  box-shadow: 10px 10px 17px white;
+
+  
+}
+
+nav.horizontalNAV ul{
+margin-left: -50px;    
+list-style: none;
+
+}
+
+nav.horizontalNAV li a{
+  font-family: georgia;    
+  font-weight:700;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+nav.horizontalNAV li{
+display: inline-block;
+margin-right:5px;  
+padding: 12px;
+background-color: none;
+box-shadow: 10px 10px 20px #888888;
+}
+
+#margin {
+   margin-right: 180px;    
+}
+
+nav.horizontalNAV a:hover{
+color: #888888;
+    font-weight:700;
+}
+
+ 
+  
+#right{
+  
+  float:right;
+  width: 300px;
+  bottom:88px;
+  
+  }
+  
+#supplements{
+font-weight:700;
+  margin-top:10px;
+  margin-right:17px;
+  background-image: url(images/background.png);
+  overflow: scroll; 
+  width: 300px;
+ height: 300px; 
+  float: right;    
+}  
+#supplements h2{
+    font-size: 20px;
+}
+#supplements td{
+    font-size: 10px;
+}
+
+  
+#follow{
+  font-weight:700;
+  margin-top:400px;
+  margin-right:17px;
+  background-image: url(images/background.png);
+}  
+
+#rightSideBar {
+ 
+ float: right;
+ width: 300px;
+ height: 300px;
+ background-image: url(images/background.png);
+ border-left: 1px solid black;
+ margin-left: 20px;
+ overflow: scroll;
+ top:100px;
+}
+
+#follow {
+  padding-top: 0px; 
+   margin-top:400px;
+}
+
+
+#rightSideBar h1{
+  font-size: 25px;
+  color: rgb(53,53,53);
+  padding-bottom: 20px;
+  text-decoration: underline;
+  font-family: serif;
+}
+
+#rightSideBar h2{
+  font-size: 20px;
+  color: white;
+  background-color: rgb(142,143,141);
+  font-family: Comic Sans;
+  }
+  
+  
+#rightSideBar p{
+  font-size: 17px;
+  font-family: Helvica;
+  color:black;
+}  
+
+#adblock_125X125{
+  border:1px solid black
+  
+}
+
+#adblock2_125X125{
+  border:1px solid black;
+}
+
+
+#underNAV {
+  position:relative;
+  padding: 10px;
+  border: 3px dashed black;
+  background-color: rgb(214, 245, 145);
+  text-align: center;
+  font-size:14pt;
+  font-family: Arial Black;
+  top: -36px;
+  
+}
+
+#underNAV a{
+  color: red;
+  text-decoration: none;
+}
+
+#underNAV a:hover{
+  background-color:rgb(214, 245, 145);
+  color: blue;
+}
+
+#result {
+  width: 290px;
+  float: left;
+  padding-right:10px;
+  padding-left: 10px;
+}
+
+header h1{
+  
+  padding: 0px;
+  font-family: Rockwell;
+  font-size: 34pt;
+  color: rgb(0, 40, 77);
+    padding-right: 100px;
+  
+  }
+
+
+#table{
+    margin-top: -150px;
+    margin-left: 80px;
+    position: relative;
+}
+#table a{
+    text-decoration: none;
+    color:rgb(181, 183, 188);
+}
+#table a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+/*
+* for index
+*/
+#foot {
+    width: 100%;
+    height: 100px;
+  padding: 40px 0;
+  color:rgb(181, 183, 188);
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5; 
+  margin-top: 0px;  
+  text-decoration: none;    
+  overflow: hidden;    
+}
+
+#foot li{
+    display:flex;
+    text-decoration: none;
+}
+#foot li a{
+    text-decoration: none;
+}
+
+#foot ul{
+    list-style:none;
+    text-decoration: none;
+}
+
+#foot p a{
+    text-decoration: none;
+    color:rgb(181, 183, 188);
+    
+}
+#foot p a:hover{
+    color: black;
+}
+
+#table{
+    margin-top: -150px;
+    margin-left: 80px;
+    position: relative;
+}
+#table a{
+    text-decoration: none;
+    color:rgb(181, 183, 188);
+}
+#table a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+// -----------------------------------
+
+hgroup.h{
+  text-align:center;
+  left: 500px;
+  background-image: url(images/head2.jpg);
+  color:white;
+    border:8px;
+  border-style:outset;
+  box-shadow: 10px 10px 20px #888888;
+  margin-bottom:20px;
+}
+
+#body{
+  width: 100%;
+  /*background-color:white;*/
+}
+
+#top{
+width:100%;
+height: 600px;
+bottom:400px;
+border:10px;
+box-shadow: 10px 10px 17px #888888;
+margin-top: 35px;
+margin-bottom:20px;
+}
+  
+#about{
+width:100%;
+height: 600px;
+bottom:400px;
+border:10px;
+box-shadow: 10px 10px 17px #888888;
+margin-top: 35px;
+margin-bottom:40px;    
+}
+
+#aboutus{
+    border:10px;
+  border-style:inset;
+  box-shadow: 20px 20px 25px #888888;
+  margin-bottom:20px;
+}
+
+#aboutus b{
+    font-size: 25px;
+}
+
+#tips{
+    width: 100%;
+}
+
+#tips h1{
+  font-family: Comic Sans MS;
+  text-shadow: 2px 5px gray;
+  font-weight:700;
+  font-size: 34pt;
+  color: black;
+}
+
+
+#basic{
+  border:10px;
+  border-style:inset;
+  box-shadow: 20px 20px 25px #888888;
+  margin-bottom:20px;
+  float:right;
+  
+}
+#basic h2{
+  border:10px;
+  border-style:outset;
+  box-shadow: 20px 20px 25px #888888;
+}
+
+
+#top h1{
+  font-family:Rockwell;
+  text-shadow: 2px 5px gray;
+  font-weight:700;
+  font-size: 40pt;
+  color: black;
+}
+
+
+/*
+*  diet page
+*/
+#diet{
+    width: 100%;
+}
+
+#weightloss{
+  border:10px;
+  border-style:inset;
+  box-shadow: 20px 20px 25px #888888;
+  margin-bottom:20px;
+}
+
+#weightloss h2{ 
+  border:10px;
+  border-style:outset;
+  box-shadow: 20px 20px 25px #888888;
+    
+}
+#weightloss a{
+  text-decoration: none;
+}
+
+#weightgain{
+  border:10px;
+  border-style:inset;
+  box-shadow: 20px 20px 25px #888888;
+  margin-bottom:20px;
+}
+
+#weightgain h2{
+  border:10px;
+  border-style:outset;
+  box-shadow: 20px 20px 25px #888888;
+}
+
+#fatloss{
+  border:10px;
+  border-style:inset;
+  box-shadow: 20px 20px 25px #888888;
+  margin-bottom:20px;
+}
+
+#fatloss h2{
+  border:10px;
+  border-style:outset;
+  box-shadow: 20px 20px 25px #888888;
+}
+
+#contacttable p{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: fantasy;
+    color: rgb(91, 92, 94);
+}
+#contacttable table td{
+    text-decoration: none;
+        color:rgb(181, 183, 188);
+}
+
+#contacttable table a{
+    text-decoration: none;
+        color:rgb(181, 183, 188);
+}
+#contacttable table a:hover{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+
+
+.navbar-brand{
+    margin-top: -10px;
+}
+
+.navbar-default{
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.cmmt-box{
+    width: 450px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+
+/* contact page fonts */
+
+.contactpagefonts .fa{
+    text-align: center;
+    padding: 10px;
+    width: 45px;
+    border-radius: 50%;
+    position: relative;  
+    border: 4px solid rgba(0, 0, 0, 0.14);
+}    
+
+.contactpagefonts .fa-facebook {
+    background-color: white;
+  color: #3B5998;
+  
+}
+.contactpagefonts .fa-facebook:hover {
+  color: white;
+    background-color: #3B5998;
+}
+
+.contactpagefonts .fa-google {
+    background-color: white;
+  color: #dd4b39;
+}
+.contactpagefonts .fa-google:hover {
+  color: white;
+    background-color: #dd4b39;
+}
+
+.contactpagefonts .fa-youtube {
+    background-color: white;
+  color: #dd4b39;
+}
+.contactpagefonts .fa-youtube:hover {
+  color: white;
+    background-color: #dd4b39;
+}
+
+
+.contactpagefonts .fa-instagram {
+    background-color: white;
+  color: #fc1e7a;
+}
+.contactpagefonts .fa-instagram:hover {
+  color: white;
+    background-color: #fc1e7a;
+}
+    
+.contactpagefonts .fa-whatsapp {
+    background-color: white;
+  color: #5ff442;
+}
+.contactpagefonts .fa-whatsapp:hover {
+  color: white;
+    background-color: #5ff442;
+}
+    
+.contactpagefonts .fa-phone {
+    background-color: white;
+  color: #47c5f7;
+}
+.contactpagefonts .fa-phone:hover {
+  color: white;
+    background-color: #47c5f7;
+}    
+
+
+/* index page extra */
+
+.index-extra{
+    font-family:'Cookie', cursive;
+    color:#838487;
+}
+.index-extra:hover{
+    font-family:'Cookie', cursive;
+    color:#939496;
+}
+
+.index-extra .table a{
+    text-decoration: none;
+}
+
+.index-extra td{
+    font-size: 22px;
+}
+.index-extra h1{
+    font-size: 50px;
+}
+.index-extra td h3{
+    font-size: 30px;
+}
+
+
+

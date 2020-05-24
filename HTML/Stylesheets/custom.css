@@ -1,0 +1,317 @@
+/*
+ * Globals
+ */
+
+#index{
+  width: 100%;
+  background: rgb(242, 242, 242);
+  margin: 0px auto 0px auto; /*this is - TRBL(Top Right Bottom Left) */
+  /*border: 1px solid black;*/
+}
+
+
+#frame{
+  width: 100%;
+  min-width: 900px;
+  max-width: 1050px;
+  font-family: Verdana, Times New Roman, Sans-Serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0px auto 0px auto;
+      
+}
+
+#blogheader{
+width:100%;
+height: 800px;
+bottom:400px;
+border:10px;
+box-shadow: 10px 10px 17px #888888;
+margin-top: 0px;
+margin-bottom:0px;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+.container{
+   width: 100%;
+   
+}
+
+
+
+/*
+ * Masthead for nav
+ */
+
+nav.bloghorizontalNAV{
+  width: 100%;
+  text-align: center;
+  background-image: url(images/black.jpg);
+  position: fixed;      
+  top: -10px;
+  margin-bottom: 35px;
+  padding:0px;
+  box-shadow: 10px 10px 17px white;
+
+  
+}
+
+nav.bloghorizontalNAV ul{
+padding-top: 13px;    
+margin-left: -150px;    
+list-style: none;
+
+}
+
+nav.bloghorizontalNAV li a{
+  font-family:georgia;   
+  font-weight:700;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+nav.bloghorizontalNAV li{
+display: inline-block;
+margin-right:5px;  
+padding: 12px;
+background-color: none;
+box-shadow: 10px 10px 20px #888888;
+}
+
+#margin {
+   margin-right: 600px;    
+}
+
+nav.bloghorizontalNAV a:hover{
+color: #888888;
+}
+
+
+
+/*
+ * Blog name and description
+ *
+
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+  }
+  
+.blog-description {
+padding-left:280px;
+  font-size: 20px;
+  color: #999;
+}
+*/
+
+/*
+ * Main column and sidebar layout
+ */
+
+#blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+    float: left;
+   width: 60%;
+}
+
+/* Sidebar modules for boxing content */
+
+#side{
+    float: left;
+}
+
+
+#categories {
+     
+  padding: 15px;
+  padding-top: 300px; 
+  margin: 0 -15px 15px;
+}
+#categories h3{
+  color: white;
+  background-image: url(images/head2.jpg);
+  border: 6px;    
+  border-style:outset;
+  box-shadow: 10px 10px 20px #888888;
+}
+
+#categories ul{
+     
+  padding: 15px;
+  padding-left: 125px;
+  margin: 0 -15px 15px;
+}
+
+#categories1 {
+     
+  padding: 15px;
+  padding-top: 20px; 
+  margin: 0 -15px 15px;
+}
+
+#categories1 h3{
+  color: white;
+  background-image: url(images/head2.jpg);
+  border: 6px;    
+  border-style:outset;
+  box-shadow: 10px 10px 20px #888888;
+}
+
+#categories1 ul{
+     
+  padding: 15px;
+  padding-left: 125px;
+  margin: 0 -15px 15px;
+}
+
+#rightSideBar1 {
+ 
+ float: right;
+ width: 300px;
+ height: 250px;
+ background-image: url(images/head2.jpg);
+ border-left: 1px solid black;
+ margin-left: 20px;
+ overflow: scroll;
+ margin-top:70px;
+ border: 6px;     
+ border-style:outset;
+  box-shadow: 10px 10px 20px #888888;    
+}
+
+#rightSideBar1 h3{
+font-size: 25px;
+  color: white;
+  padding-bottom: 10px;
+ 
+}
+#rightSideBar1 p{
+font-size: 15px;
+  color: white;
+  padding-bottom: 0px;
+ font-weight: 700;
+}
+
+
+#rightSideBar1 p:last-child,
+#rightSideBar1 ul:last-child,
+#rightSideBar1 ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Footer
+ */
+
+.blogfooter {
+    width: 100%;
+    height: 180px;
+  padding: 40px 0;
+  color:rgb(181, 183, 188);
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5; 
+  margin-top: 0px;  
+  text-decoration: none;   
+  overflow: hidden;    
+}
+
+
+.blogfooter li{
+    display:flex;
+    text-decoration: none;
+}
+.blogfooter li a{
+    text-decoration: none;
+}
+
+.blogfooter ul{
+    list-style:none;
+    text-decoration: none;
+}
+
+
+#table1{
+    margin-top: -120px;
+    padding-left: -230px;
+}
+#table1 a{
+    text-decoration: none;
+    color:rgb(181, 183, 188);
+}
+#table1 a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+/*
+*   custom classes
+*/
+
+
+.readmore{
+display:block;
+text-align:center;
+padding:5px;
+background:white;
+margin-top:10px;
+color:#666
+}
+
+.readmore:hover{
+background:#ccc;
+color:#666;
+text-decoration:none;
+}
+
