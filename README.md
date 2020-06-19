@@ -5,7 +5,7 @@ An informative site for Fitness Enthusiasts, contains useful information about
 - **Diet**
 - **Exercise Categories**, etc
 
-PHP based user account system.
+PHP based session management for user account system.
 
 Languages/Tools used
 - **HTML5**
