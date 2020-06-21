@@ -3,7 +3,8 @@
 An informative site for Fitness Enthusiasts, contains useful information about
 - **Workout**
 - **Diet**
-- **Exercise Categories**, etc
+- **Exercise Categories**
+- **Illustrative GIFs**, etc
 
 PHP based session management for user account system.
 
