@@ -6,7 +6,7 @@ An informative site for Fitness Enthusiasts, contains useful information about
 - **Exercise Categories**
 - **Illustrative GIFs**, etc
 
-PHP based session management for user account system.
+PHP based session management for User Account system.
 
 Languages/Tools used
 - **HTML5**
